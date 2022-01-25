@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styled, { keyframes } from 'styled-components'
 import Repo from '../Components/Repo'
+import { getAllRepositories } from '../Services/API';
 
 
 const Projects = (props) => {
-    const repo = props.data
+
+    const [repo, setrepo] = useState(props.data)
+
+    useEffect(async () => {
+        const data = await getAllRepositories()
+        setrepo(data)
+    }, [])
 
     return (
         <Container>

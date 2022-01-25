@@ -33,7 +33,7 @@ const Techno = (props) => {
         <Container>
             <p>{techno.name}</p>
             {callImage()}
-            <p onClick={()=>{window.location = techno.link}}>Project with this tech</p>
+            <p onClick={()=>{window.open(techno.link)}}>Project with this tech</p>
         </Container>
     )
 }

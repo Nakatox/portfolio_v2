@@ -54,11 +54,11 @@ const Home = () => {
             <ContainerLink>
                 <div>
                     <div>
-                        <img src={githubLogo} alt="logo" onClick={()=>{window.location = "https://github.com/Nakatox"}} />
+                        <img src={githubLogo} alt="logo" onClick={()=>{window.open("https://github.com/Nakatox")}} />
                         <p>Nakatox</p>
                     </div>
                     <div>
-                        <img src={linkedinLogo} alt="logo" onClick={()=>{window.location = "https://www.linkedin.com/in/vincent-loron-181464207/"}} />
+                        <img src={linkedinLogo} alt="logo" onClick={()=>{window.open('https://www.linkedin.com/in/vincent-loron-181464207/','_blank')}} />
                         <p>Vincent Loron</p>
                     </div>
 
@@ -75,8 +75,8 @@ const Home = () => {
                 </div>
             </ContainerLink>
             <Button >
-                <img onClick={()=>{window.location= "https://drive.google.com/file/d/1WifhgRz6KnZwWHwdYykv1nTq0_3aIi_V/view?usp=sharing"}} src={me} alt="profile" />
-                <p onClick={()=>{window.location= "https://drive.google.com/file/d/1WifhgRz6KnZwWHwdYykv1nTq0_3aIi_V/view?usp=sharing"}}>My Resume</p>
+                <img onClick={()=>{window.open("https://drive.google.com/file/d/1WifhgRz6KnZwWHwdYykv1nTq0_3aIi_V/view?usp=sharing")}} src={me} alt="profile" />
+                <p onClick={()=>{window.open("https://drive.google.com/file/d/1WifhgRz6KnZwWHwdYykv1nTq0_3aIi_V/view?usp=sharing")}}>My Resume</p>
             </Button>
             <ContainerTechno>
                 {techno.map(techno => (
