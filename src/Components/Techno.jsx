@@ -47,6 +47,7 @@ const Container = styled.div`
     border-radius: 10px;
     height: 400px;
     justify-content: space-between;
+    background-color: #fff8e9;
     box-shadow:
   0px 0px 1.1px -23px rgba(0, 0, 0, 0.043),
   0px 0px 2.5px -23px rgba(0, 0, 0, 0.063),
