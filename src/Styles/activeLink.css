@@ -1,0 +1,16 @@
+
+.link_header{
+    border-bottom: solid transparent 2px;
+    transition: ease 0.2s;
+    text-decoration: none;
+}
+.activeLink{
+    border-bottom: solid #cc5454 2px;
+    scale: 1.15;
+}
+.inactive{
+    transition: all .15s ease-in-out;
+}
+.inactive:hover{
+    transform: scale(1.15);
+}

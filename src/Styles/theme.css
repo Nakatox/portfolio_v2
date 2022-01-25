@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700;800display=swap');
+
+body{
+    font-family: 'Catamaran', sans-serif;
+    background-color: #fff8e9;
+    display: grid;
+    grid-template-columns: 1fr 70% 1fr;
+
+}
+body>div:nth-child(1){
+    grid-column: 2 / 3;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        grid-template-columns: 1fr;
+    }
+    body>div:nth-child(1){
+        grid-column: 1 / 1;
+    }
+}

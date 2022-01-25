@@ -1,0 +1,14 @@
+.timeline-card-content{
+    height: max-content;
+    min-height: max-content !important;
+}
+
+.timeline-controls{
+    display: none !important;
+}
+#timeline-main-wrapper{
+    padding: 0 !important;
+}
+#timeline-main-wrapper>*{
+    padding: 0 !important;
+}
