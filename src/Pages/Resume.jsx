@@ -1,9 +1,11 @@
 import React from 'react'
+import cv from '/assets/cv.png'
+
 
 const Resume = () => {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-        <img src='./assets/cv.png' alt='resume' width={500} />
+        <img src={cv} alt='resume' width={500} />
     </div>
   )
 }
