@@ -2,10 +2,10 @@
 
 body{
     font-family: 'Catamaran', sans-serif;
-    background-color: #fff8e9;
+    background-color: #121212;
     display: grid;
     grid-template-columns: 1fr 70% 1fr;
-
+    color: white;
 }
 body>div:nth-child(1){
     grid-column: 2 / 3;

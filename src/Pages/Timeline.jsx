@@ -8,9 +8,13 @@ import cinemaImage from "/assets/cinema.jpeg";
 const Timeline = () => {
 
     const items = [{
-        title: "2021 June -> 2021 August",
-        cardTitle: "Php developer internship - Nevers",
-        cardDetailedText: "I was in charge of the creation of an internal apllication for the management of information systems. My main responsabilities were the creation of the database in PostgreSQL and the creation of the application with a homemade PHP framework.",
+        title: "2023 January -> 2023 July",
+        cardTitle: "Fullstack developer internship - Golem.ai",
+        cardDetailedText: "Improvement and maintenance of a SaaS product / Improvements and addition of features related to AI (sdk) / Ideation and creation of media aimed at promoting Golem.ai technology",
+      },{
+        title: "2022 March -> 2022 September",
+        cardTitle: "Fullstack developer internship - Golem.ai",
+        cardDetailedText: "Improvement and maintenance of a SaaS product / Development of features on in-house technologies",
       },{
         title: "2020 -> 2023",
         cardTitle: "Epitech Digital - Paris",

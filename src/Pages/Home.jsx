@@ -3,8 +3,8 @@ import styled, {keyframes}from 'styled-components';
 import logoSVG from '/assets/logoSVG.svg';
 import githubLogo from '/assets/github.svg';
 import linkedinLogo from '/assets/linkedin.svg';
-import mailLogo from '/assets/mail.svg';
-import phoneLogo from '/assets/phone.svg';
+import mailLogo from '/assets/mail.png';
+import phoneLogo from '/assets/phone.png';
 import me from '/assets/me.svg';
 
 
@@ -49,7 +49,7 @@ const Home = () => {
                 <h1>incent</h1>
             </Container>
             <ContainerText>
-                <p>My name is Vincent, I am a 19 years old student learning <span>web developpement</span> at <span>Epitech Digital !</span> </p>
+                <p>My name is Vincent, I am a 21 years old <span>developer</span></p>
             </ContainerText>    
             <ContainerLink>
                 <div>
@@ -74,15 +74,11 @@ const Home = () => {
                     </div>
                 </div>
             </ContainerLink>
-            <Button >
-                <img onClick={()=>{window.open("https://drive.google.com/file/d/1WifhgRz6KnZwWHwdYykv1nTq0_3aIi_V/view?usp=sharing")}} src={me} alt="profile" />
-                <p onClick={()=>{window.open("https://drive.google.com/file/d/1WifhgRz6KnZwWHwdYykv1nTq0_3aIi_V/view?usp=sharing")}}>My Resume</p>
-            </Button>
-            <ContainerTechno>
+            {/* <ContainerTechno>
                 {techno.map(techno => (
                     <Techno key={techno.name} data={techno} />
                 ))}
-            </ContainerTechno>
+            </ContainerTechno> */}
 
         </div>
     )  
@@ -197,7 +193,7 @@ const ContainerText = styled.div`
         & span{
             font-weight: bold;
         }
-        & span:nth-child(2){
+        & span{
             color: #cc5454;
         }
     }

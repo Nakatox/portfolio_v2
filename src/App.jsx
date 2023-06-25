@@ -10,6 +10,7 @@ import Home from './Pages/Home';
 import Notfound from './Pages/Notfound';
 import Projects from './Pages/Projects';
 import Timeline from './Pages/Timeline';
+import Resume from './Pages/Resume';
 import { getAllRepositories } from './Services/API';
 
 
@@ -29,6 +30,7 @@ function App() {
       <Route exact path="/" element={<Home />}/>
       <Route exact path="/about" element={<Timeline />}/>
       <Route exact path="/projects" element={<Projects data={repo} />}/>
+      <Route exact path="/resume" element={<Resume />}/>
       <Route path="*" element={<Notfound />}/>
     </Routes>
   </BrowserRouter>
